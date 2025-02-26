@@ -52,7 +52,7 @@ function App() {
         </button>
         <Add GetData={GetData} Api={Api} />
       </div>
-      <table className="w-[600px] mx-auto">
+      <table className="sm:w-[600px]  mx-auto">
         <thead className="bg-gray-100 dark:bg-gray-800 text-white ">
           <tr>
             <th className="bg-amber-700 rounded-l-lg px-4 py-2 text-start">
