@@ -39,14 +39,14 @@ function App() {
   }, []);
 
   return (
-    <div className=" dark:bg-black h-auto p-5">
+    <div className="bg-white dark:bg-black h-auto p-5">
       <h1 className="font-bold text-[32px] text-center text-black dark:text-white">
         TODO LIST
       </h1>
       <div className="flex justify-center gap-5 my-5">
         <button
           className="bg-amber-700 text-white p-2 rounded-md font-bold"
-          onClick={handleClick}
+          onClick={handleClick }
         >
           Dark Mode <NightlightRoundOutlinedIcon />
         </button>
